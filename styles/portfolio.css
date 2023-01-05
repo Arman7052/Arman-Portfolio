@@ -215,3 +215,22 @@ color: #757575;
     text-align: center;
     margin-top: 50px;
 }
+/* contact styles  */ 
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+   gap: 100px;
+   background: #FFF8F3;
+   padding: 130px 230px;
+}
+.contact input[type="text"],input[type="Email"] ,textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact input{
+   
+border-radius: 5px;
+}
