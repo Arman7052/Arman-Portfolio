@@ -131,6 +131,7 @@ main {
 
 .what-i-do {
     margin-top: 130px;
+    text-align: center;
 }
 
 .skill-container {
@@ -160,12 +161,52 @@ main {
     padding: 30px;
 
 }
-.about-section-title{
+
+/* Resume styles  */
+
+
+
+.resume-summary {
     margin-top: 130px;
     color: #181818;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     font-weight: 700;
-font-size: 35px;
+    font-size: 40px;
+}
+.resume-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-weight: 700;
+font-size: 30px;
+}
+.resume-title{
+    font-weight: 700;
+font-size: 30px;
+color: #474747;
+margin-bottom: 60px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.resume-item .title{
+    font-weight: 700;
+    font-size: 25px;
+    
+
+}
+.resume-item .sub-title{
+    font-weight: 600;
+font-size: 20px;
+color: #757575;
+}
+.resume-item .description{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+
 }
